@@ -1,0 +1,25 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2?
+HTTP/1.1:
+Sequential Requests: Each request-response cycle necessitates a separate TCP connection, leading to inefficiencies and head-of-line blocking.
+Verbose Headers: Redundant headers increase overhead and latency, impacting performance.
+Resource Bundling: Concatenating assets into single files mitigates multiple requests but complicates caching and versioning
+HTTP/2:
+Multiplexing and Prioritization: Multiplexed connections enable simultaneous requests over a single TCP connection, tackling latency and prioritizing critical resources.
+Header Compression: Efficient header compression techniques like HPACK reduce redundancy and optimize bandwidth usage.
+Server Push: Servers can anticipate and push resources to clients, reducing round trips and enhancing page loading speed.
+
+2.Write a blog about objects and its internal representation in Javascript?
+Properties and Methods: Objects have properties (like characteristics) and methods (like actions). Properties are key-value pairs defining attributes, while methods are functions associated with the object.
+Prototype Chain: Objects can inherit properties and methods from other objects through a chain known as the prototype chain. If JavaScript can't find a property on an object, it looks up the chain until it finds it.
+Object Descriptors: Each property of an object has descriptors that define its behavior, like if it can be changed or deleted.
+Memory Representation: Objects are stored in memory, typically on the heap, which is a dynamic memory allocation area.
+
+3.codekata practice?
+
+CodeKata is an excellent way to hone your programming skills through practice and repetition. Below, I've outlined a simple CodeKata exercise along with a solution in Python. Feel free to try it out and expand upon it as you see fit!
+
+4.Read about IP address, port, HTTP methods, MAC address?
+
+IP Address: An IP address is a numerical label assigned to each device connected to a computer network, serving as both a host or network identifier and enabling routing of data packets.
+Port: A port is a communication endpoint used by software to identify specific processes or applications on a computer or device, facilitating data transmission between different services over a network.
+
